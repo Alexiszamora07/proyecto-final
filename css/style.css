@@ -9,6 +9,18 @@
   height: 480px;
 }
 
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1em;
+  align-items: center;
+}
+
+.parrafo-main {
+  padding-left: 100px;
+  text-align: center;
+}
+
 * {
   margin: 0%;
   padding: 0%;
