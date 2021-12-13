@@ -9,6 +9,29 @@
   height: 440px;
 }
 
+.color-fondo {
+  background-color: #2828fc;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 300px;
+  border: 2px solid #039c9c;
+}
+
+.parrafo-grid {
+  text-align: center;
+  padding-right: 200px;
+  padding-top: 70px;
+  align-items: center;
+}
+
+.img-grid {
+  padding-left: 100px;
+  height: 550px;
+}
+
 * {
   margin: 0%;
   padding: 0%;
