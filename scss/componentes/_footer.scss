@@ -1,0 +1,12 @@
+.footer-container {
+    background-color:rgb(46, 42, 42);
+}
+
+.footer-items {
+    display: flex;
+    justify-content:space-between;
+    list-style: none;
+    width: 500px;
+    height: 100px;
+    align-items: center;
+}

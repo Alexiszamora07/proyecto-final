@@ -1,20 +1,9 @@
-.grid-container {
-    display: grid;
-    grid-template-columns:1fr 1fr;
-    grid-template-rows:300px;
-    border: 2px solid rgb(3, 156, 156);
-   
 
+.main-container {
+    display: flex;
+    justify-content: space-between;
 }
-
-.parrafo-grid {
-    text-align: center;
-    padding-right: 200px;
-    padding-top: 70px;
-    align-items: center;
-    
-}
-.img-grid {
-    padding-left: 100px;
-    height: 550px;
-}
+ .img-seo {
+     width: 100%;
+     height: 650px;
+ }

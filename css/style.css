@@ -1,3 +1,8 @@
+.header-container {
+  background-color: #5995DA;
+  height: 80px;
+}
+
 .didactico {
   display: flex;
   justify-content: space-around;
@@ -9,27 +14,33 @@
   height: 440px;
 }
 
-.color-fondo {
-  background-color: #2828fc;
+.animacion {
+  height: 365px;
+  width: 550px;
+  padding-bottom: 50px;
 }
 
-.grid-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 300px;
-  border: 2px solid #039c9c;
+.main-container {
+  display: flex;
+  justify-content: space-between;
 }
 
-.parrafo-grid {
-  text-align: center;
-  padding-right: 200px;
-  padding-top: 70px;
+.img-seo {
+  width: 100%;
+  height: 650px;
+}
+
+.footer-container {
+  background-color: #2e2a2a;
+}
+
+.footer-items {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  width: 500px;
+  height: 100px;
   align-items: center;
-}
-
-.img-grid {
-  padding-left: 100px;
-  height: 550px;
 }
 
 * {
