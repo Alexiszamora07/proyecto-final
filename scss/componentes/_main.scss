@@ -42,11 +42,25 @@
 }
 
 .carrusel{
-    width: 700px;
+    width: 100%;
     
 }
 
-.logo-nav{
-    width: 130px;
-    height: 130px;
+.img--carrusel{
+    height:700px;
+}
+
+.referencia .img-circular{
+    margin: 20px;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border:7px solid #fff;
+   
+}
+
+.contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
