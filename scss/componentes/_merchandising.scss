@@ -4,6 +4,7 @@
     padding: 20px;
     text-align: center;
     position: relative;
+   
 }
 
 .productos:before{
@@ -23,6 +24,7 @@ color: white;
     display: grid;
     grid-template-columns:repeat(4, 1fr) ;
     gap: 15px;
+    
 }
 
 .img-producto{
@@ -34,6 +36,8 @@ color: white;
 
 .main{
     padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .title-producto{
@@ -46,6 +50,13 @@ color: white;
     font-weight: bold;
 
 }
+
+.productos-container .productos{
+    flex-wrap: wrap;
+
+}
+
+
 
 /*fin productos catalogos*/
 
