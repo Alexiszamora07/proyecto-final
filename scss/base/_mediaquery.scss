@@ -1,4 +1,4 @@
-@media  screen and (min-width: 780px) and (max-width:1400px){
+@media  screen and (min-width: 780px) and (max-width:1200px){
     .carrusel-container {
         width: 100%;
     }
@@ -9,14 +9,40 @@
     .carrusel-container{
         width: 100%;
     }
-     
-}
+    
+    .informativo-container .div-main {
+        
+        width: 100%;
+        margin: auto;
+        }
+
+        #tarjetas .tarjeta{
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+        }
+
+
+    }
+
 
 @media screen and (max-width: 480px){
     .carrusel-container {
        width: 100%;
     }
     
-   
-}
+    .informativo-container .div-main {
+        
+        width: 100%;
+        margin: auto;
+        }
 
+
+    
+        #tarjetas .tarjeta{
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+        }
+
+}

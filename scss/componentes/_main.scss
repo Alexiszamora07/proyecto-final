@@ -32,8 +32,7 @@
 }
 
 .informativo-container .div-main{
-    display: flex;
-    justify-content: space-between;
+    width: 100%;
 }
 
 .img-img{
@@ -70,4 +69,29 @@
     text-align: center;
 }
 
+/*tartejas*/
 
+#tarjetas{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.tarjeta img{
+    width: 100%;
+}
+
+.tarjeta{
+    width: 20%;
+    margin: 30px 30px;
+    text-align: center;
+    box-shadow: 1px 1px 11px 0px #00000030;
+    flex-wrap: wrap;
+}
+
+.parrafo-main{
+    line-height: 30px;
+    color: #5e5c5c;
+    flex-wrap: wrap;
+}
