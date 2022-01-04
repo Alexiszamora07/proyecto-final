@@ -149,6 +149,10 @@
   height: 30px;
 }
 
+.espacio-footer {
+  margin-top: 5%;
+}
+
 /*whatsapp*/
 .boton-container {
   background-color: #2e6329;
