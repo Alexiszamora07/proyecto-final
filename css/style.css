@@ -121,10 +121,6 @@
   transition: all 300ms ease;
 }
 
-.pie-pagina .grupo-1 .red-social a:hover {
-  color: aqua;
-}
-
 .pie-pagina .grupo-2 {
   background-color: #0a1a2a;
   padding: 15px 10px;
