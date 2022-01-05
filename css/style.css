@@ -217,6 +217,12 @@
     box-shadow: 0 0 0 25px rgba(0, 0, 0, 0);
   }
 }
+/*efectos*/
+.nav-link:hover {
+  transform: scale(1.2);
+  transition: all 0.5s;
+}
+
 .productos {
   border: solid 1px #ccc;
   padding: 20px;
@@ -322,6 +328,10 @@
   h2 {
     margin: auto;
   }
+
+  .imag-container .img-final {
+    width: 80%;
+  }
 }
 @media screen and (max-width: 480px) {
   .carrusel-container {
@@ -347,6 +357,11 @@
   }
 
   h2 {
+    margin: auto;
+  }
+
+  .imag-container .img-final {
+    width: 90%;
     margin: auto;
   }
 }

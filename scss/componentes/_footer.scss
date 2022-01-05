@@ -125,5 +125,11 @@
     }
 }
 
-//footertop
+/*efectos*/
 
+.nav-link:hover{
+
+    transform: scale(1.2);
+    transition: all 0.5s;
+    
+}
